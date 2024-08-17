@@ -1,0 +1,6 @@
+test:
+- ${CONFIGPATH}/test_data.csv
+train:
+- ${CONFIGPATH}/train_data.csv
+train_no_response:
+- ${CONFIGPATH}/train_no_response_data.csv

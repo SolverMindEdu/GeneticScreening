@@ -1,0 +1,14 @@
+batch_size: 250
+fasta_dir: /mnt/binf/xiaoxi/Mercury/2024_bam/Finaledb/fasta_finaldb_sub100000
+info: /mnt/binf/xiaoxi/Mercury/2024_bam/Finaledb/Cristiano_info.csv
+n_cores: 60
+no_response:
+- - /mnt/binf/xiaoxi/Mercury/2024_bam/Finaledb/Cristiano_split/test.id
+  - test
+- - /mnt/binf/xiaoxi/Mercury/2024_bam/Finaledb/Cristiano_split/train.id
+  - train_no_response
+outdir: /mnt/binf/xiaoxi/Mercury/2024_bam/Finaledb/data_Cristiano
+truncation: 20
+with_response:
+- - /mnt/binf/xiaoxi/Mercury/2024_bam/Finaledb/Cristiano_split/train.id
+  - train
