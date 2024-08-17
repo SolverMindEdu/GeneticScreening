@@ -1,0 +1,84 @@
+{
+    "builder_name": "csv",
+    "citation": "",
+    "config_name": "default",
+    "dataset_name": "csv",
+    "dataset_size": 2015129988,
+    "description": "",
+    "download_checksums": {
+      "/mnt/binf/xiaoxi/Mercury_bam_model/data/data_Cristiano/test_data.csv": {
+        "num_bytes": 288602421,
+        "checksum": null
+      },
+      "/mnt/binf/xiaoxi/Mercury_bam_model/data/data_Cristiano/train_data.csv": {
+        "num_bytes": 862738015,
+        "checksum": null
+      },
+      "/mnt/binf/xiaoxi/Mercury_bam_model/data/data_Cristiano/train_no_response_data.csv": {
+        "num_bytes": 861531215,
+        "checksum": null
+      }
+    },
+    "download_size": 2012871651,
+    "features": {
+      "output": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "patient": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "input_ids": {
+        "feature": {
+          "dtype": "int32",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      },
+      "attention_mask": {
+        "feature": {
+          "dtype": "int8",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      }
+    },
+    "homepage": "",
+    "license": "",
+    "size_in_bytes": 4028001639,
+    "splits": {
+      "test": {
+        "name": "test",
+        "num_bytes": 288926400,
+        "num_examples": 54000,
+        "dataset_name": "csv"
+      },
+      "train": {
+        "name": "train",
+        "num_bytes": 863705194,
+        "num_examples": 161200,
+        "shard_lengths": [
+          100000,
+          61200
+        ],
+        "dataset_name": "csv"
+      },
+      "train_no_response": {
+        "name": "train_no_response",
+        "num_bytes": 862498394,
+        "num_examples": 161200,
+        "shard_lengths": [
+          100000,
+          61200
+        ],
+        "dataset_name": "csv"
+      }
+    },
+    "version": {
+      "version_str": "0.0.0",
+      "major": 0,
+      "minor": 0,
+      "patch": 0
+    }
+  }
