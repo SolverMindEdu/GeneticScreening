@@ -1,0 +1,5 @@
+datasets==2.18.0
+evaluate==0.4.2
+PyYAML==6.0.1
+torch==2.2.1
+transformers==4.39.3
