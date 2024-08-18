@@ -2,7 +2,7 @@
 
 SHELL_SCRIPT=$(readlink -f "$0")
 RUN_PATH=$(dirname "$SHELL_SCRIPT")
-SRC_PATH="/mnt/c/Users/RyanDesktop/Downloads/finaledb_bam_model/mercury_opt_model/model_run"
+SRC_PATH=""
 
 echo "RUN_PATH: ${RUN_PATH}"
 echo "SRC_PATH: ${SRC_PATH}"
